@@ -178,7 +178,7 @@ paw-and-preference/
 - Displays ranked list of favorite cat types
 - Responsive design for mobile and desktop views
 
-## 🔧 Configuration
+## Configuration
 
 ### TailwindCSS Custom Theme
 Custom colors are defined in `index.css` using the `@theme` directive:
@@ -210,5 +210,13 @@ For more information about available endpoints and options, visit the [CATAAS AP
 
 **Issue**: Animations not working
 - **Solution**: Clear browser cache and ensure Tailwind CSS is properly configured
+
+## 📱 Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+- Mobile browsers (iOS Safari, Chrome Mobile)
 
 ---
