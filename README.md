@@ -2,7 +2,7 @@
 
 A cat-swiping application built with React, Vite, and TailwindCSS. Swipe through adorable cat images, customize your preferences with tags, and discover your favorite feline types!
 
-## ✨ Features
+## Features
 
 - **Swipe Interface**: Intuitive Tinder-like swipe mechanism for browsing cats
 - **Tag-Based Filtering**: Customize your experience by selecting preferred cat tags
@@ -10,7 +10,7 @@ A cat-swiping application built with React, Vite, and TailwindCSS. Swipe through
 - **Tag Analytics**: View your most-liked cat types after completing a session
 - **Smooth Animations**: Delightful micro-interactions and custom animations
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Core Framework
 - **React 18**: Component-based UI library
@@ -33,7 +33,7 @@ A cat-swiping application built with React, Vite, and TailwindCSS. Swipe through
 - **CATAAS API**: Cat as a Service API for fetching cat images ([Documentation](https://cataas.com/doc.html))
 - **Error Handling**: Comprehensive error boundaries and user feedback
 
-## 🎨 UI/UX Design Approach
+## UI/UX Design Approach
 
 ### Design Approach
 The application embraces a warm, playful aesthetic inspired by cat cafés and pet adoption interfaces. The design prioritizes:
@@ -64,7 +64,7 @@ Brown 800 (#3E2723)  - Headings, footer
 - **View-based Routing**: Simple page navigation without router library
 - **Separation of Concerns**: Hooks for data, components for presentation
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 - Node.js (v16 or higher)
@@ -98,7 +98,7 @@ npm install -D tailwindcss postcss autoprefixer
 npm install -D typescript @types/react @types/react-dom
 ```
 
-## 🚀 Running the Application
+## Running the Application
 
 ### Development Mode
 ```bash
@@ -121,7 +121,7 @@ This creates an optimized production build in the `dist/` directory.
 npm run preview
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 paw-and-preference/
@@ -158,7 +158,7 @@ paw-and-preference/
 └── vite.config.ts
 ```
 
-## 🎯 Key Features Explained
+## Key Features Explained
 
 ### Swipe Mechanism
 - Touch and mouse event support for cross-device compatibility
@@ -178,7 +178,7 @@ paw-and-preference/
 - Displays ranked list of favorite cat types
 - Responsive design for mobile and desktop views
 
-## 🔧 Configuration
+## Configuration
 
 ### TailwindCSS Custom Theme
 Custom colors are defined in `index.css` using the `@theme` directive:
@@ -200,7 +200,7 @@ VITE_BASE_URL=https://cataas.com
 
 For more information about available endpoints and options, visit the [CATAAS API Documentation](https://cataas.com/doc.html).
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 **Issue**: Images not loading
 - **Solution**: Check your internet connection and verify the CATAAS API is accessible
@@ -210,13 +210,4 @@ For more information about available endpoints and options, visit the [CATAAS AP
 
 **Issue**: Animations not working
 - **Solution**: Clear browser cache and ensure Tailwind CSS is properly configured
-
-## 📱 Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-- Mobile browsers (iOS Safari, Chrome Mobile)
-
 ---
