@@ -210,13 +210,4 @@ For more information about available endpoints and options, visit the [CATAAS AP
 
 **Issue**: Animations not working
 - **Solution**: Clear browser cache and ensure Tailwind CSS is properly configured
-
-## 📱 Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-- Mobile browsers (iOS Safari, Chrome Mobile)
-
 ---
